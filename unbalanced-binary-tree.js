@@ -24,3 +24,9 @@ const own_tree = tree(node(1), function(self_node, new_node) {
 
   return baseRecursionOn(this, shouldGoLeft, self_node, new_node)
 })
+
+//examples
+
+own_tree.insert(own_tree.root_node, node(-5))
+own_tree.insert(own_tree.root_node, node(-3))
+own_tree.insert(own_tree.root_node, node(10))
